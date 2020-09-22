@@ -1,0 +1,22 @@
+TODOs
+
+1. Build the project    
+    - Creating the folder
+    - adding files
+    - connecting files
+
+2. Navbar
+    - 2 Links
+    - Name
+
+3. Portfolio item grid
+    - Images
+    - Titles
+    - Description
+    - Animations
+    - Javascript
+
+4. About page
+    - Image
+    - split column layout
+    - content
