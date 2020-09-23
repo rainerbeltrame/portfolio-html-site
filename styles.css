@@ -5,6 +5,7 @@
 }
 /*Master Styles*/
 body {
+  font-family: "Lato", sans-serif;
   margin: 0px;
 }
 .container {
@@ -42,6 +43,13 @@ body {
 .nav-link-wrapper a:hover {
   color: black;
 }
+.active-nav-link {
+  border-bottom: 1px solid black;
+}
+.active-nav-link a {
+  color: black !important;
+}
+
 /*Portfolio Styles*/
 
 .portfolio-items-wrapper {
@@ -91,4 +99,26 @@ body {
 .img-darken {
   transition: 1s;
   filter: brightness(10%);
+}
+
+/*About page styles*/
+.two-column-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.profile-image-wrapper img {
+  width: 100%;
+}
+.profile-content-wrapper {
+  padding: 30px;
+}
+
+.profile-content-wrapper h1 {
+  margin: 2rem 0rem;
+  color: lightseagreen;
+}
+.profile-content-wrapper p {
+  margin: 2rem 0rem;
+  color: #8a8a8a;
 }
